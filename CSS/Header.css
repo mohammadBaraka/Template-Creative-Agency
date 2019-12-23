@@ -1,0 +1,89 @@
+/*---------------------------------Header----------------------------*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: rgba(1, 1, 1, 0.7);
+}
+
+.header .logo {
+    width: 40%;
+    float: left;
+}
+
+.header .logo img {
+    width: 20%;
+    margin-top: 15px;
+}
+
+/* .header-content {
+    overflow: hidden;
+} */
+
+.header .nav {
+    width: 60%;
+    float: left;
+    list-style: none;
+    text-align: right;
+}
+
+.nav>li {
+    display: inline-block;
+}
+
+.nav>li>a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 30px 15px;
+    font-size: 15px;
+}
+
+.nav>li>a.active:after,
+.nav>li>a:after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.5s;
+}
+
+.nav>li>a.active:after {
+    width: 100%;
+}
+
+.nav>li>a:after {
+    width: 0%;
+}
+
+.nav>li>a:hover:after {
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .drop-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-menu {
+    position: absolute;
+    background: #6195ff;
+    width: 150px;
+    left: -50%;
+    top: 70%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+}
+
+.drop-menu a {
+    padding: 10px;
+    color: #fff;
+    display: block;
+}

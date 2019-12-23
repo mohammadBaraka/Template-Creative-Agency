@@ -1,0 +1,47 @@
+/*-------------------------Home Section---------------------------*/
+
+.home {
+    height: 100vh;
+    background-image: url("../images/background/background1.webp");
+    background-size: cover;
+    position: relative;
+}
+
+.home-contnt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 65%;
+}
+
+.home .title {
+    color: #fff;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+.home .home-dec {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.btn {
+    min-width: 160px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.home .btn-start {
+    margin-right: 10px;
+    background: #fff;
+}
+
+.home .btn-learn {
+    background-color: #6195ff;
+    color: #fff;
+}
