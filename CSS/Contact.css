@@ -1,0 +1,70 @@
+.contact-item {
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.contact-info {
+    width: 30%;
+    float: left;
+    text-align: center;
+
+
+}
+
+.contact-info i {
+    color: #6195ff;
+
+}
+
+.contact-info p {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.contact-info span {
+    color: #999;
+}
+
+
+.email-name {
+    margin-left: 195px;
+}
+
+
+.email-name input {
+    width: 350px;
+    height: 40px;
+    margin: 50px 10px 0 10px;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    background: rgb(223, 218, 218);
+}
+
+.subject {
+    width: 59.5%;
+    margin: auto;
+}
+
+.subject input {
+    width: 100%;
+    margin-left: -40px;
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    background: rgb(223, 218, 218);
+}
+
+.send {
+    border: none;
+    outline: 0;
+    /* width: 20%; */
+    margin-left: 40%;
+    margin-top: 40px;
+    background: #6195ff;
+    color: #fff;
+    padding: 10px 20px;
+}
